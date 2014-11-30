@@ -167,6 +167,12 @@
             android:defaultValue="@*lineageos.platform:bool/config_proximityCheckOnWakeEnabledByDefault"
             lineage:requiresConfig="@*lineageos.platform:bool/config_proximityCheckOnWake" />
 
+        <lineageos.preference.LineageGlobalSettingSwitchPreference
+            android:key="wake_when_plugged_or_unplugged"
+            android:title="@string/wake_when_plugged_or_unplugged_title"
+            android:summary="@string/wake_when_plugged_or_unplugged_summary"
+            android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
+
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
