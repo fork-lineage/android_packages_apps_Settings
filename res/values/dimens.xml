@@ -456,4 +456,5 @@
     <dimen name="chartview_trapezoid_radius">5dp</dimen>
     <dimen name="chartview_trapezoid_margin_start">1dp</dimen>
     <dimen name="chartview_trapezoid_margin_bottom">2dp</dimen>
+    <dimen name="picker_circle_preview_size">26dp</dimen>
 </resources>
