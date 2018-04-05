@@ -287,4 +287,7 @@
     <!-- FastCharge feature -->
     <string name="fast_charging_title">Fast charging</string>
     <string name="fast_charging_summary">Disable to reduce the heat produced by the device while charging or to extend the lifespan of the battery</string>
+
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 </resources>
