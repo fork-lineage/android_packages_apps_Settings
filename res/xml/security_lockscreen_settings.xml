@@ -87,6 +87,13 @@
             settings:controller="com.android.settings.display.AmbientDisplayAlwaysOnPreferenceController"
             settings:userRestriction="no_ambient_display" />
 
+       <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="doze_on_charge"
+            android:icon="@drawable/ic_ambient_display_always_on"           
+            android:defaultValue="false"
+            android:title="@string/doze_on_charge_title"
+            android:summary="@string/doze_on_charge_summary" />
+
         <Preference
             android:key="ambient_display_tap"
             android:title="@string/ambient_display_tap_screen_title"
