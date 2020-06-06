@@ -13690,5 +13690,7 @@
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Custom</string>
+    <string name="custom_vibration_pattern_title">Custom pattern</string>
 
 </resources>
