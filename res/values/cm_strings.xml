@@ -182,4 +182,8 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Show notifications history log</string>
 
+    <!-- Misc gesture settings -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_summary">Enable haptic tick effect on back gesture</string>
+
 </resources>
