@@ -196,4 +196,11 @@
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"/>
     </PreferenceCategory>
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_battery_info"
+        android:title="@string/lockscreen_battery_info_title"
+        android:summary="@string/lockscreen_battery_info_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
