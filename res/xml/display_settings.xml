@@ -199,6 +199,14 @@
             android:defaultValue="false"
             lineage:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
+    <!-- Pulse notifications lightning -->
+    <com.android.settings.widget.preferences.SystemSettingMasterSwitchPreference
+        android:key="pulse_ambient_light"
+        android:title="@string/pulse_ambient_light_title"
+        android:summary="@string/pulse_ambient_light_summary"
+        android:fragment="com.android.settings.EdgeLightningSettings"
+        android:defaultValue="false" />
+        
         <ListPreference
             android:key="theme"
             android:title="@string/device_theme"
