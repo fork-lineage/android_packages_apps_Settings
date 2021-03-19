@@ -61,6 +61,7 @@
         <!-- App lock -->
         <com.android.settingslib.RestrictedPreference
             android:key="app_lock"
+            android:icon="@drawable/ic_app_locker_settings"
             android:title="@string/app_lock_title"
             settings:controller="com.android.settings.security.applock.AppLockSettingsPreferenceController" />
     </PreferenceCategory>
