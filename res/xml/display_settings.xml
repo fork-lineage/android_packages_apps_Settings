@@ -230,7 +230,23 @@
         android:defaultValue="false"
         lineage:requiresFeature="lineagehardware:FEATURE_HIGH_TOUCH_SENSITIVITY" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+          android:key="reticker_status"
+          android:icon="@drawable/ic_message_fast"
+          android:title="@string/reticker_title"
+          android:summary="@string/reticker_summary"
+          android:order="9"
+          android:defaultValue="false" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+          android:dependency="reticker_status"
+          android:key="reticker_colored"
+          android:icon="@drawable/ic_message_fast"
+          android:title="@string/reticker_colored_title"
+          android:summary="@string/reticker_colored_summary"
+          android:order="10"
+          android:defaultValue="false" />
+          
     <ListPreference
         android:key="theme"
         android:title="@string/device_theme"
