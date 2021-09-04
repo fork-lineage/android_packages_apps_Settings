@@ -117,6 +117,7 @@
 
         <org.lineageos.internal.lineageparts.LineagePartsPreference
             android:key="livedisplay"
+            android:icon="@drawable/ic_live_display"
             lineage:requiresConfig="@*lineageos.platform:bool/config_enableLiveDisplay" />
 
         <Preference
@@ -207,12 +208,14 @@
         <!-- Double tap to sleep -->
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
+            android:icon="@drawable/ic_double_tap"
             android:title="@string/status_bar_double_tap_to_sleep_title"
             android:summary="@string/status_bar_double_tap_to_sleep_summary"
             android:defaultValue="true" />
 
         <lineageos.preference.LineageGlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
+            android:icon="@drawable/ic_wake_plug"
             android:title="@string/wake_when_plugged_or_unplugged_title"
             android:summary="@string/wake_when_plugged_or_unplugged_summary"
             android:defaultValue="@*android:bool/config_unplugTurnsOnScreen" />
@@ -226,6 +229,7 @@
 
         <lineageos.preference.LineageSystemSettingSwitchPreference
             android:key="high_touch_sensitivity_enable"
+            android:icon="@drawable/ic_high_touch"
             android:title="@string/high_touch_sensitivity_title"
             android:summary="@string/high_touch_sensitivity_summary"
             android:defaultValue="false"
@@ -247,6 +251,7 @@
 
         <Preference
             android:key="vr_display_pref"
+            android:icon="@drawable/ic_vr"
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
@@ -258,6 +263,7 @@
 
         <ListPreference
             android:key="android.theme.customization.font"
+            android:icon="@drawable/ic_fonts"
             android:title="@string/theme_customization_font_title"/>
 
        <ListPreference
@@ -356,6 +362,7 @@
 
     <ListPreference
         android:key="display_cutout_emulation"
+        android:icon="@drawable/ic_display_cut"
         android:title="@string/display_cutout_emulation"
         settings:keywords="@string/display_cutout_emulation_keywords" />
 
