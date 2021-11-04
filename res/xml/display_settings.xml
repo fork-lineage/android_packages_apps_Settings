@@ -252,6 +252,13 @@
        <ListPreference
             android:key="android.theme.customization.icon_pack"
             android:title="@string/theme_customization_icon_pack_title"/>
+
+      <Preference
+            android:key="monet_engine"
+            android:title="@string/monet_engine_title"
+            android:summary="@string/monet_engine_summary"
+            android:fragment="com.android.settings.display.MonetEngine"/>
+
     </PreferenceCategory>
 
     <com.android.settings.widget.preferences.SystemSettingSwitchPreference
