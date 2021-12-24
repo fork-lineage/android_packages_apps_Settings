@@ -229,6 +229,12 @@
         android:summary="@string/disable_fingerprint_ripple_effect_summary"
         android:defaultValue="false" />
 
+    <com.android.settings.widget.preferences.SecureSettingSwitchPreference
+            android:key="enable_location_privacy_indicator"
+            android:title="@string/location_privacy_indicator_title"
+            android:summary="@string/location_privacy_indicator_summary"
+            android:defaultValue="true" />
+
     <com.android.settings.widget.preferences.SystemSettingSwitchPreference
         android:key="lockscreen_battery_info"
         android:title="@string/lockscreen_battery_info_title"
