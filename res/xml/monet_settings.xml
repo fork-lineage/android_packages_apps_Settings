@@ -54,5 +54,10 @@
         android:title="@string/monet_engine_linear_lightness_title"
         android:defaultValue="false" />
 
-</PreferenceScreen>
+    <com.android.settings.widget.preferences.SecureSettingSwitchPreference
+        android:key="system_black_theme"
+        android:title="@string/system_black_theme_title"
+        android:summary="@string/system_black_theme_summary"
+        android:defaultValue="false" />
 
+</PreferenceScreen>
