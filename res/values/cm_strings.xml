@@ -463,4 +463,9 @@
         <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
     </plurals>
     <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Game space</string>
+    <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
+
 </resources>

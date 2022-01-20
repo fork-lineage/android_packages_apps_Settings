@@ -357,4 +357,16 @@
         android:fragment="com.android.settings.widget.fragments.DisplayCutoutForceFullscreenSettings"
         settings:controller="com.android.settings.widget.fragments.DisplayCutoutForceFullscreenPreferenceController" />
 
+    <!-- Gaming mode -->
+    <Preference
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary">
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.exthmui.game"
+            android:targetClass="org.exthmui.game.ui.MainActivity" />
+    </Preference>
+
 </PreferenceScreen>
