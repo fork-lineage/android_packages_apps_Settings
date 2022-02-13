@@ -314,8 +314,10 @@
     <string name="disable_fingerprint_ripple_effect_title">Ripple effect</string>
     <string name="disable_fingerprint_ripple_effect_summary">Disable ripple effect on unlock</string>
 
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Show privacy indicator for location</string>
-    <string name="location_privacy_indicator_summary">Reboot to take effect</string>
+   <!-- Privacy indicators -->
+    <string name="mic_camera_privacy_indicator_title">Mic and camera privacy indicator</string>
+    <string name="mic_camera_privacy_indicator_summary">Show separate indicator when an any app uses mic or camera</string>
+    <string name="location_privacy_indicator_title">Location privacy indicator</string>
+    <string name="location_privacy_indicator_summary">Show separate indicator when an any app uses location</string>
 
 </resources>
