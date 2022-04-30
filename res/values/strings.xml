@@ -13674,4 +13674,9 @@
     <!-- Game Space -->
     <string name="game_space_title">Game Space</string>
     <string name="game_space_summary">Enhance your gaming experience</string>
+
+    <!-- Qs Transparency -->
+    <string name="qs_transparency_summary">Choose how transparent you want your qs to be (Requires SystemUI Restart)</string>
+    <string name="qs_transparency_title">Qs Transparency</string>
+
 </resources>
