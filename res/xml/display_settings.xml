@@ -370,4 +370,10 @@
         android:summary="@string/reticker_colored_summary"
         android:dependency="reticker_status" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_anywhere_title"
+            android:summary="@string/double_tap_sleep_anywhere_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
