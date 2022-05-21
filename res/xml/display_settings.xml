@@ -357,4 +357,17 @@
         android:fragment="com.android.settings.widget.fragments.DisplayCutoutForceFullscreenSettings"
         settings:controller="com.android.settings.widget.fragments.DisplayCutoutForceFullscreenPreferenceController" />
 
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="reticker_status"
+        android:icon="@drawable/ic_message_fast"
+        android:title="@string/reticker_title"
+        android:summary="@string/reticker_summary" />
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="reticker_colored"
+        android:icon="@drawable/ic_message_fast"
+        android:title="@string/reticker_colored_title"
+        android:summary="@string/reticker_colored_summary"
+        android:dependency="reticker_status" />
+
 </PreferenceScreen>
