@@ -62,6 +62,7 @@
     <ListPreference
         android:key="android.theme.customization.custom_overlays"
         android:title="@string/theme_customization_systemui_title"
-        settings:keywords="@string/keywords_dark_ui_mode"/>
+        settings:keywords="@string/keywords_dark_ui_mode"
+        android:persistent="true" />
 
 </PreferenceScreen>

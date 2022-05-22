@@ -405,4 +405,19 @@
 
     </PreferenceCategory>
 
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="fingerprint_success_vib"
+            android:title="@string/fprint_success_vib_title"
+            android:summary="@string/fprint_success_vib_summary"
+            android:persistent="true"
+            android:defaultValue="true" />
+
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+            android:key="fingerprint_error_vib"
+            android:title="@string/fprint_error_vib_title"
+            android:summary="@string/fprint_error_vib_summary"
+            android:persistent="true"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
